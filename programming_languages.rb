@@ -1,3 +1,5 @@
+require 'pry'
+
 def reformat_languages(languages)
  new_hash = {}
  languages.each do |styles, data|
@@ -11,5 +13,6 @@ def reformat_languages(languages)
    end
   end
  end
+ binding.pry
 new_hash
 end
