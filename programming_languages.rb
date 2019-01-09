@@ -10,7 +10,6 @@ def reformat_languages(languages)
       new_hash[language] = {
        style: [styles],
        type: type.values.join}
-
    end
   end
  end
