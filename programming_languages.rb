@@ -12,7 +12,6 @@ def reformat_languages(languages)
        style: [styles]}
    end
   end
-  #binding.pry
  end
 new_hash
 end
