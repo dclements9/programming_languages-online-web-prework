@@ -11,8 +11,9 @@ def reformat_languages(languages)
        style: [styles],
        type: type.values.join}
    end
+   binding.pry
   end
  end
-binding.pry
+
 new_hash
 end
